@@ -1,0 +1,16 @@
+.heading {
+  background-color: lightblue;
+  color: darkblue;
+  font-size: 30px;
+}
+.intro-text {
+  font-family: Arial, sans-serif;
+  text-align: justify;
+}
+#intro {
+  border: 2px solid black;
+  padding: 20px;
+}
+.highlight {
+  background-color: yellow;
+}

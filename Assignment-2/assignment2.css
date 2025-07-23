@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+}
+p{
+    color: darkgray;
+    font-size: 20px;
+}
+a{
+    text-decoration-line: none;
+    color: darkblue;
+}
+a:hover{
+    color: orange;
+}
+.box{
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid black;
+}
+.btn{
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color:white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    border:1px solid black;
+    padding:16px;
+    transition: box-shadow 0.3s ease;
+}
+.card:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+tr:nth-child(odd){
+    background-color: #ffffff;
+}
+tr:nth-child(even){
+    background-color: lightblue;
+}
+.badge{
+    position: absolute;
+    top:8px;
+    right:8px;
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+.image-container{
+    position: absolute;
+    display: inline-block;
+}
+.title{
+    font-size:32px ;
+}
+@media(max-width:600px){
+    .title{
+        font-size: 20px;
+    }
+}
+nav {
+    display: flex;            
+    gap: 20px;                  
+  }
+  
+  nav a {
+    text-decoration: none;     
+    color: #333;                
+    padding-bottom: 4px;        
+  }
+  
+  nav a.active {
+    border-bottom: 2px solid #007BFF; 
+  }
+  
