@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Page</title>
+</head>
+<body>
+
+  <article>
+    <h2>User Feedback Form</h2>
+    <form action="#" method="post">
+      <label for="username">Name:</label><br>
+      <input type="text" id="username" name="username" required><br><br>
+
+      <label for="feedback">Your Feedback:</label><br>
+      <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </article>
+
+  <aside>
+    <h3>What are localStorage and sessionStorage?</h3>
+    <p>
+      <strong>localStorage</strong> and <strong>sessionStorage</strong> are part of the Web Storage API in HTML5. 
+      They allow websites to store data in the browser.
+    </p>
+    <p>
+      <strong>localStorage</strong> stores data with no expiration time — the data persists even after the browser is closed.
+      It is often used to remember user preferences or settings across sessions.
+    </p>
+    <p>
+      <strong>sessionStorage</strong> stores data for only one session — the data is cleared when the browser tab is closed.
+      It is useful for temporarily saving form data or user activity during a single session.
+    </p>
+  </aside>
+
+</body>
+</html>
